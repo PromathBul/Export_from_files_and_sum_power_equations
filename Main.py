@@ -31,11 +31,11 @@ for k in range (amount_equation):
     with open(path, 'r') as data:
         txt = data.read()
     list_coeffs = to_list(txt)
-    print('Список текущих коэффициентов: ')
-    print(list_coeffs)
+    # print('Список текущих коэффициентов: ')
+    # print(list_coeffs)
     total_list = sum_coeffs(total_list, list_coeffs)
-    print('Итоговый список коэффициентов')
-    print(total_list)
+    # print('Итоговый список коэффициентов')
+    # print(total_list)
 
 total_equation = to_string(total_list)
 
